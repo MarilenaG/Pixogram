@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-size: 14px;
+    font-family:  Arial, sans-serif;
+
+    
+}
+
+
+table > thead > tr {
+    vertical-align: bottom;
+}
+
+button {
+    padding: 5px !important;
+}
+input {
+    width:100% !important;
+}

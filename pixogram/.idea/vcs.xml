@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../backApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../eurekaServer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../frontApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mail" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<form   [formGroup]="userDetailForm">
+  <input  type = "hidden" formControlName="id"  /> 
+<div class="container">
+  <div class="row"> 
+    <div class="col-md-3 ">
+        <label>User name    : </label>
+    </div>   
+    <div class="col-md-6">
+        <input pInputText type = "text" formControlName="userName"  /> 
+    </div>       
+  </div>
+  <div class="row"> 
+    <div class="col-md-3 ">
+        <label>Email    : </label>
+    </div>   
+    <div class="col-md-6">
+        <input pInputText type = "text" formControlName="email"  /> 
+    </div>       
+  </div>   
+  <div class="row"> 
+    <div class="col-md-3 ">
+        <label>Password    : </label>
+    </div>   
+    <div class="col-md-6">
+        <input pInputText type = "password" formControlName="password"  /> 
+    </div>       
+  </div> 
+  <div class="row"> 
+    <div class="col-md-3 ">
+        <label>Repeat password    : </label>
+    </div>   
+    <div class="col-md-6">
+        <input pInputText type = "password" formControlName="repeatPassword"  /> 
+    </div>       
+  </div>
+  <div class="row"> 
+      <div class="col-md-3 ">
+          <label>Default image    : </label>
+      </div>   
+      <div class="col-md-6">
+          <img src={{userDefaultImageLocation}}  /> 
+      </div>       
+    </div>
+
+</div>
+<p-footer>
+  <button type="button" pButton  (click)="updateUser()" label="Update"></button>
+  
+</p-footer>
+</form>

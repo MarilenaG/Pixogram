@@ -1,0 +1,19 @@
+<div class="container ">
+    <div class="row">
+      <div class="col-md-3" *ngFor="let f of usersFollowedByMe">
+        <br/>
+          <p-card header="{{f.userName}}" [style]="{width: '250px'}" styleClass="ui-card-shadow">
+          <p-header>
+              <img src="Card" src="{{f.imageLocation}}" (click)="displayDetail(m)">
+          </p-header>
+          <div>
+             <i class="fa fa-thumbs-up" style="width:50px"> {{f.noOfImages}} </i> 
+             <i class="fa fa-thumbs-up" style="width:50px"> {{f.noOfLikes}} </i> 
+             <i class="fa fa-thumbs-down" style="width:50px"> {{f.noOfDislikes}} </i> 
+             <i class="fa fa-comments" style="width:50px"> {{f.noOfComments}} </i>
+           </div>
+          
+      </p-card>
+      </div>
+    </div>
+  </div>

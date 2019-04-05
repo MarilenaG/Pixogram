@@ -1,0 +1,9 @@
+{
+
+    "/pixogram": {
+        "target": "http://localhost:8091/fullstack",
+        "secure": false,
+        "logLevel": "debug"
+      }
+  
+  }

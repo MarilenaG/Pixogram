@@ -1,0 +1,80 @@
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-3" *ngFor="let m of images">
+        <br/>
+      
+
+
+        <p-card header="{{m.title}}" subheader="{{m.description}}" [style]="{width: '250px'}" styleClass="ui-card-shadow">
+          <p-header>
+              <img src="Card" src="{{m.imageDownloadPath}}" (click)="displayDetail(m)">
+          </p-header>
+          <div>
+             <i class="fa fa-thumbs-up" style="width:50px"> {{m.noOfLikes}} </i> 
+             <i class="fa fa-thumbs-down" style="width:50px"> {{m.noOfDislikes}} </i> 
+             <i class="fa fa-comments" style="width:50px"> {{m.noOfComments}} </i> </div>
+          <p-footer>
+              <div *ngIf="!m.defaultImage">
+                <div> <i class="fa fa-address-card"  style="font-size: 25px;" (click)="setAsDefaultImage(m.id)"></i>
+                <span style="font-size: 16px; margin-left: 9px;">Set as default image</span> 
+                </div>
+              </div>
+              <div *ngIf="m.defaultImage">
+                  <div> <i class="fa fa-address-card"  style="font-size: 25px;" ></i>
+                  <span style="font-size: 16px; margin-left: 9px;">My default image</span> 
+                  </div>
+              </div>
+
+          </p-footer>
+      </p-card>
+      </div>
+    </div>
+  </div>
+
+  <input  type = "hidden" [(ngModel)]="selectedImage" /> 
+  <p-dialog [(visible)]="showDetails" [style]="{width: '600px', minWidth: '600px'}" [contentStyle]="{'min-height':'100px'}">
+      <form   [formGroup]="detailsFormGroup">
+          <div class="container">
+              <div class="row"> 
+                  <div class="col-md-3 ">
+                      <label>Title   : </label>
+                  </div>   
+                  <div class="col-md-6">
+                      <textarea style="width:100%;" type="text" formControlName="title"></textarea> 
+                  </div>       
+              </div>
+              <div class="row"> 
+                  <div class="col-md-3 ">
+                      <label>Description   : </label>
+                  </div>   
+                  <div class="col-md-6">
+                      <textarea style="width:100%;" type="text" formControlName="description"></textarea> 
+                  </div>       
+              </div>
+             
+
+          </div>
+      </form>
+      <p-footer>
+          <button type="button" pButton  (click)="updateImageDetails()" label="OK"></button>
+      </p-footer>
+
+      <div class="container">
+          <div class="row" *ngFor="let c of selectedImageComments">
+              <div class="col-md-3 ">
+                  <label style="font-size:15px">Comments </label>
+              </div>
+               
+          </div>
+        <div class="row" *ngFor="let c of selectedImageComments">
+            <div class="col-md-3 ">
+                <label>From   {{c.userName}} : </label>
+            </div>
+            <div class="col-md-6">
+                <textarea style="width:100%;" type="text" formControlName="description"></textarea> 
+            </div> 
+        </div>
+      </div>
+  </p-dialog>
+
