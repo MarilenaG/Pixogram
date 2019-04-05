@@ -93,7 +93,7 @@ public class ImageController {
                 .body(resource);
     }
 
-    @PutMapping("/likeImage")
+    @PostMapping("/likeImage")
     public ResponseEntity<ImageRepresentation> likeImage(@RequestParam Long imageId , @RequestParam Long userId) {
         Image img= imageService.likeImage(imageId,userId);
         ImageRepresentation imageRepresentation = ImageRepresentation.fromImage(img);
@@ -102,7 +102,7 @@ public class ImageController {
         return new ResponseEntity(imageRepresentation, HttpStatus.OK);
     }
 
-    @PutMapping("/dislikeImage")
+    @PostMapping("/dislikeImage")
     public ResponseEntity<ImageRepresentation> dislikeImage(@RequestParam Long imageId , @RequestParam Long userId) {
         Image img= imageService.dislikeImage(imageId,userId);
         ImageRepresentation imageRepresentation = ImageRepresentation.fromImage(img);

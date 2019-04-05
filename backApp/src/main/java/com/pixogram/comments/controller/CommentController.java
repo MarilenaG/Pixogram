@@ -2,7 +2,10 @@ package com.pixogram.comments.controller;
 
 import com.pixogram.comments.model.Comment;
 import com.pixogram.comments.service.CommentService;
+import com.pixogram.images.model.Image;
+import com.pixogram.images.service.ImageService;
 import com.pixogram.users.controller.UserFollowerRepresentation;
+import com.pixogram.users.model.User;
 import com.pixogram.users.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,6 +22,7 @@ public class CommentController {
 
 @Autowired CommentService commentService;
 @Autowired UserService userService;
+@Autowired ImageService imageService;
 
     @PutMapping("/likeComment")
     public ResponseEntity<CommentRepresentation> likeComment(@RequestParam Long commentId , @RequestParam Long userId) {
@@ -35,7 +39,20 @@ public class CommentController {
         commentRepresentation =fillUserName(commentRepresentation);
         return new ResponseEntity(commentRepresentation, HttpStatus.OK);
     }
-
+    @PostMapping("/addComment")
+    public ResponseEntity<CommentRepresentation> addComment(@RequestBody CommentRepresentation commentRepresentation) {
+        Comment comment = new Comment(  );
+        comment.setContent(commentRepresentation.content);
+        comment.setUser( userService.get(commentRepresentation.userId));
+        comment.setImage(imageService.getImage(commentRepresentation.imageId)) ;
+        comment.setNoOfLikes(0);
+        comment.setNoOfDislikes(0);
+        commentService.addComment(comment);
+        comment= commentService.getComment(commentRepresentation.id);
+        commentRepresentation= CommentRepresentation.fromComment(comment);
+        commentRepresentation =fillUserName(commentRepresentation);
+        return new ResponseEntity(commentRepresentation, HttpStatus.OK);
+    }
     @GetMapping("/showAllCommentsOnImage")
     public ResponseEntity<List<CommentRepresentation>> showAllCommentsOnImage(@RequestParam Long imageId ) {
         Set<Comment> comments= commentService.listAllCommentsByImage(imageId);

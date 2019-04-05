@@ -6,6 +6,7 @@ export class User {
     registrationCode: string;
     active: boolean;
     imageDownloadPath: string;
+    defaultImageDownloadUrl:string;
     followedByMe:boolean;
     followingMe:boolean;
 }

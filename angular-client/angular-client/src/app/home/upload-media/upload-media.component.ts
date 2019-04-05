@@ -68,10 +68,13 @@ export class UploadMediaComponent implements OnInit {
               this.tokenStorageService.retrieveFromStorage("USER_ID"))
             .subscribe(
         (res) => {
-        
+          this.uploadImageForm.controls['title'].setValue( '' );
+          this.uploadImageForm.controls['description'].setValue( '' );
+          this.uploadImageForm.controls['id'].setValue( '' );
+          this.imgURL="";
         },
         (err) => {
-        
+          console.log(err);
         })
     });
 

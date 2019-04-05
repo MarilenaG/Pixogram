@@ -11,9 +11,6 @@
     </p-column>
     <p-column header = "I follow" [style]="{'width':'100px'}">
       <ng-template let-user="rowData" pTemplate="body">
-          <!-- <div *ngIf="user.followedByMe==false"><i class="fa fa-edit" (click)="followUser(user)" ></i></div>
-          <div *ngIf="user.followedByMe==true"><i class="fa fa-check" (click)="unfollowUser(user)" ></i></div> -->
-
           <p-inputSwitch (onChange)="handleChange($event, user.id)" [(ngModel)]="user.followedByMe"> </p-inputSwitch>
       </ng-template>
     </p-column>

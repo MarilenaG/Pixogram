@@ -2,121 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7cef57-c6c5-440a-a096-1166a59eedfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/UserJwt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backApp/src/test/java/com/pixogram/ActivityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/TrainingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/BackAppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/admin/SkillController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/admin/infrastructure/SkillRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/admin/model/Skill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/admin/service/AdministrativeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/admin/service/SkillService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/auth/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/auth/JwtAuthenticationLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/JwtAuthenticationLoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/auth/JwtAuthorisationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/JwtAuthorisationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/auth/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/JwtTokenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/auth/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/UserPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/auth/UserPrincipalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/UserPrincipalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/auth/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/config/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/config/MailClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/MailClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/config/MailFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/MailFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/mentor/controller/MentorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/mentor/controller/MentorRepresentation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/mentor/infrastructure/MentorRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/mentor/infrastructure/MentorSpecification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/mentor/model/Calendar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/mentor/model/Mentor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/mentor/model/MentorSkill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/mentor/service/MentorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/payment/PaymentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/training/controller/TrainingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/training/controller/TrainingRepresentation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/training/infrastructure/TrainingRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/training/model/Training.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/training/model/TrainingSchedule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/training/model/TrainingStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/training/service/TrainingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/users/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/users/controller/UserRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/users/infrastructure/LocalDateAttributeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/infrastructure/LocalDateAttributeConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/users/infrastructure/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/infrastructure/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/users/model/ApplicationMember.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/users/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/users/model/UserType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/users/service/SignupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/service/SignupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/training/fullstack/users/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/account/account.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/account/account.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/follower/follower.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/follower/follower.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/follower/follower.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/follower/follower.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/following/following.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/following/following.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/following/following.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/following/following.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/upload-media/upload-media.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/upload-media/upload-media.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/services/image.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/services/image.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/angular-cli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/e2e/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/e2e/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/proxy.conf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/alert/alert.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/alert/alert.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/alert/alert.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/alert/alert.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/confirm-registration/confirm-registration.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/confirm-registration/confirm-registration.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/confirm-registration/confirm-registration.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/confirm-registration/confirm-registration.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/login/login.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/login/login.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/login/login.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/login/login.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/model/alert.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/model/applicationUser.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/model/user.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/services/alert.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/services/tokenStorageService.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/services/user.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/signup/signup.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/signup/signup.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/signup/signup.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/app/signup/signup.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/src/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/training-app/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/test/java/com/training/fullstack/MailClientServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/test/java/com/pixogram/MailClientServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/test/java/com/training/fullstack/MentorControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/test/java/com/training/fullstack/MentorRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/test/java/com/training/fullstack/SignupServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/test/java/com/pixogram/SignupServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/test/java/com/training/fullstack/SkillServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/test/java/com/training/fullstack/TrainingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/test/java/com/pixogram/BackAppApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/test/java/com/training/fullstack/TrainingServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/test/java/com/training/fullstack/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/test/java/com/pixogram/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/test/java/com/training/fullstack/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/test/java/com/pixogram/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eurekaServer/src/main/java/com/training/fullstack/eureka/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaServer/src/main/java/com/pixogram/eureka/EurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eurekaServer/src/test/java/com/training/fullstack/eureka/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaServer/src/test/java/com/pixogram/eureka/EurekaServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontApp/src/main/java/com/training/fullstack/front/FrontAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontApp/src/main/java/com/pixogram/front/FrontAppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../frontApp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontApp/src/test/java/com/training/fullstack/front/FrontAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../frontApp/src/test/java/com/pixogram/front/FrontAppApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mail/src/main/java/com/training/fullstack/MailApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mail/src/main/java/com/pixogram/MailApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mail/src/main/java/com/training/fullstack/controller/MailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mail/src/main/java/com/pixogram/controller/MailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mail/src/main/java/com/training/fullstack/mail/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mail/src/main/java/com/pixogram/mail/service/MailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mail/src/test/java/com/training/fullstack/MailApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mail/src/test/java/com/pixogram/MailApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../backApp/target/" />
     <ignored path="$PROJECT_DIR$/../eurekaServer/target/" />
@@ -130,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/DataLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="119" column="123" selection-start-line="119" selection-start-column="123" selection-end-line="119" selection-end-column="123" />
+            <state relative-caret-position="177">
+              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -142,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="50" column="65" lean-forward="true" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
+            <state relative-caret-position="148">
+              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding>
                 <element signature="e#984#985#0" expanded="true" />
                 <element signature="e#1032#1033#0" expanded="true" />
@@ -153,19 +50,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java">
+        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentRepresentation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserFollowerRepresentation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="137">
+              <caret line="35" column="51" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="35" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,10 +62,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/model/Comment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-199">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/model/Image.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1972#1973#0" expanded="true" />
+                <element signature="e#2034#2035#0" expanded="true" />
+                <element signature="e#2094#2095#0" expanded="true" />
+                <element signature="e#2170#2171#0" expanded="true" />
+                <element signature="e#2228#2229#0" expanded="true" />
+                <element signature="e#2300#2301#0" expanded="true" />
+                <element signature="e#2372#2373#0" expanded="true" />
+                <element signature="e#2472#2473#0" expanded="true" />
+                <element signature="e#2541#2542#0" expanded="true" />
+                <element signature="e#2634#2635#0" expanded="true" />
+                <element signature="e#2716#2717#0" expanded="true" />
+                <element signature="e#2836#2837#0" expanded="true" />
+                <element signature="e#2911#2912#0" expanded="true" />
+                <element signature="e#3016#3017#0" expanded="true" />
+                <element signature="e#3091#3092#0" expanded="true" />
+                <element signature="e#3196#3197#0" expanded="true" />
+                <element signature="e#3252#3253#0" expanded="true" />
+                <element signature="e#3322#3323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+            <state relative-caret-position="669">
+              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
               <folding>
                 <element signature="e#1483#1484#0" expanded="true" />
                 <element signature="e#1511#1512#0" expanded="true" />
@@ -188,13 +119,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            <state relative-caret-position="137">
+              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/service/ImageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="89" column="25" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4126#4127#0" expanded="true" />
+                <element signature="e#4173#4174#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="30" column="102" lean-forward="true" selection-start-line="30" selection-start-column="102" selection-end-line="30" selection-end-column="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -220,6 +188,7 @@
       <find>mentor</find>
       <find>BACKaP</find>
       <find>someu</find>
+      <find>commen</find>
     </findStrings>
     <replaceStrings>
       <replace>Image</replace>
@@ -227,13 +196,12 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../backApp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../backApp/pom.xml" />
-        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/DataLoader.java" />
         <option value="$PROJECT_DIR$/../backApp/src/test/java/com/pixogram/UserTest.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/activities/model/ActivityType.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/activities/model/Activity.java" />
@@ -243,7 +211,6 @@
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/CommentService.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/infrastructure/ImageRepository.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/controller/UploadFileResponse.java" />
-        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/model/Image.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/infrastructure/CommentRepository.java" />
         <option value="$PROJECT_DIR$/../frontApp/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/UserPrincipalService.java" />
@@ -251,29 +218,32 @@
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/BackAppApplication.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/service/SignupService.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/UserJwt.java" />
-        <option value="$PROJECT_DIR$/../backApp/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/FileStorageProperties.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/FileStorageService.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/controller/ImageRepresentation.java" />
-        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/controller/ImageController.java" />
-        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentRepresentation.java" />
-        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentController.java" />
-        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/service/ImageService.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserFollowerRepresentation.java" />
-        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/model/User.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/controller/ImageController.java" />
+        <option value="$PROJECT_DIR$/../backApp/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/DataLoader.java" />
+        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/model/Image.java" />
+        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentRepresentation.java" />
+        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/service/ImageService.java" />
+        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentController.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="864" />
-    <option name="height" value="464" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -281,86 +251,13 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pixogram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pixogram" type="462c0819:PsiDirectoryNode" />
-              <item name="comments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pixogram" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pixogram" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pixogram" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554481153924" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554506357496" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../backApp" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -511,10 +408,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17732793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,15 +420,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4864572" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5133215" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44760212" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.41918296" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -541,23 +438,78 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17732793" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60746" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44760212" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41918296" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/LoginController.java</url>
-          <line>20</line>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java</url>
+          <line>45</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentRepresentation.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>user.getFollowers().contains(myUser)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>user.getFollowers().contains(myUser.getId())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>user.getFollowedUsers().contains(myUser.getId())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>user</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../backApp/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/test/java/com/pixogram/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-181">
@@ -653,24 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/model/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2671#2672#0" expanded="true" />
-            <element signature="e#2706#2707#0" expanded="true" />
-            <element signature="e#2763#2764#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-            <element signature="e#2840#2841#0" expanded="true" />
-            <element signature="e#2867#2868#0" expanded="true" />
-            <element signature="e#2905#2906#0" expanded="true" />
-            <element signature="e#2937#2938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/infrastructure/CommentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -755,24 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/UserJwt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
@@ -787,20 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/DataLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -883,78 +789,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/model/Comment.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.19.1/jersey-server-1.19.1.jar!/com/sun/jersey/server/impl/application/RootResourceUriRules.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1292">
+          <caret line="100" column="64" selection-start-line="100" selection-start-column="64" selection-end-line="100" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java">
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentRepresentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/controller/ImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="115" column="40" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/service/ImageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4173#4174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1581">
+          <caret line="114" column="76" selection-start-line="114" selection-start-column="76" selection-end-line="114" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="782">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/auth/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserFollowerRepresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/controller/ImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1183">
+          <caret line="96" column="44" lean-forward="true" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/DataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+        <state relative-caret-position="669">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="e#1483#1484#0" expanded="true" />
             <element signature="e#1511#1512#0" expanded="true" />
@@ -964,10 +864,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/model/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2170#2171#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2372#2373#0" expanded="true" />
+            <element signature="e#2472#2473#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2634#2635#0" expanded="true" />
+            <element signature="e#2716#2717#0" expanded="true" />
+            <element signature="e#2836#2837#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+            <element signature="e#3016#3017#0" expanded="true" />
+            <element signature="e#3091#3092#0" expanded="true" />
+            <element signature="e#3196#3197#0" expanded="true" />
+            <element signature="e#3252#3253#0" expanded="true" />
+            <element signature="e#3322#3323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/model/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="50" column="65" lean-forward="true" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
+        <state relative-caret-position="148">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding>
             <element signature="e#984#985#0" expanded="true" />
             <element signature="e#1032#1033#0" expanded="true" />
@@ -975,20 +921,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserFollowerRepresentation.java">
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentRepresentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="137">
+          <caret line="35" column="51" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="35" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="119" column="123" selection-start-line="119" selection-start-column="123" selection-end-line="119" selection-end-column="123" />
+        <state relative-caret-position="120">
+          <caret line="30" column="102" lean-forward="true" selection-start-line="30" selection-start-column="102" selection-end-line="30" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/service/ImageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4126#4127#0" expanded="true" />
+            <element signature="e#4173#4174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

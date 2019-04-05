@@ -4,6 +4,7 @@ import { ImageService } from 'src/app/services/image.service';
 import { TokenStorageService } from 'src/app/services/tokenStorageService';
 import { FormGroup, FormBuilder, FormControl, Validators } from '@angular/forms';
 import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
+import { Comment } from 'src/app/model/comment';
 
 @Component({
   selector: 'app-my-media',

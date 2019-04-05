@@ -2,6 +2,7 @@ package com.pixogram.comments.controller;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.pixogram.comments.model.Comment;
+import com.pixogram.images.model.Image;
 import com.pixogram.users.model.User;
 
 public class CommentRepresentation {
@@ -26,5 +27,13 @@ public class CommentRepresentation {
         commentRepresentation.noOfLikes = comment.getNoOfLikes();
 
         return commentRepresentation;
+    }
+
+    public  Comment  toComment( ){
+        Comment comment = new Comment(  );
+        comment.setContent(this.content);
+        comment.setUser( new User(this.userId));
+        comment.setImage(new Image(this.imageId)) ;
+        return comment;
     }
 }

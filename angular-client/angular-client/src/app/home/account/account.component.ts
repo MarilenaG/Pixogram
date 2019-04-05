@@ -26,11 +26,10 @@ export class AccountComponent implements OnInit {
   }
  
   ngOnInit() {
-    //todo : read this from session storage
-    console.log("userId: ", this.tokenStorageService.retrieveFromStorage("USER_ID"));
+
     this.userService.getUser(this.tokenStorageService.retrieveFromStorage("USER_ID")).subscribe( res => {
       this.displayDetailForm(res);
-      this.userDefaultImageLocation=res.imageDownloadPath;
+      this.userDefaultImageLocation=res.defaultImageDownloadUrl;
       console.log(res);
     }, err => {
       console.log(err);

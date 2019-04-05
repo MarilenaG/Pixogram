@@ -87,6 +87,9 @@ public class ImageService {
         return imageRepository.findByDefaultImageAndUser_Id(true,userId).orElse(new Image());
     }
 
+    public Image getImage(Long imageId){
+        return imageRepository.findById(imageId).orElseThrow(()-> new NoSuchElementException("No image with Id"+ imageId));
+    }
     public Image addimage( String  title, String description, String imageStoragePath, Long userId){
         User user = userRepository.findById(userId).orElseThrow(()-> new NoSuchElementException("No user with Id"+ userId));
         Image img = new Image(title,description,imageStoragePath);

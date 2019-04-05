@@ -27,10 +27,14 @@ export class FollowerComponent implements OnInit {
   }
 
   handleChange(event, selectedUserId:string){
-    if (event.checked==true) {
-      this.followUser (selectedUserId);
+    if ( this.tokenStorageService.retrieveFromStorage("USER_ID") == selectedUserId) {
+      return false;
     } else {
-      this.unfollowUser (selectedUserId);
+      if (event.checked==true) {
+        this.followUser (selectedUserId);
+      } else {
+        this.unfollowUser (selectedUserId);
+      }
     }
   }
 
@@ -38,8 +42,7 @@ export class FollowerComponent implements OnInit {
   followUser(userId:String){
     this.userService.followUser( this.tokenStorageService.retrieveFromStorage("USER_ID"), userId)
     .subscribe(res => {
-      this.users = res;
-      console.log(this.users);
+      this.displayList();
     }, err => {
       console.log(err);
     });
@@ -48,8 +51,7 @@ export class FollowerComponent implements OnInit {
   unfollowUser(userId:String){
     this.userService.unfollowUser( this.tokenStorageService.retrieveFromStorage("USER_ID"), userId)
     .subscribe(res => {
-      this.users = res;
-      console.log(this.users);
+      this.displayList();
     }, err => {
       console.log(err);
     });

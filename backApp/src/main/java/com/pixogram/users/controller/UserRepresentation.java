@@ -43,8 +43,8 @@ public class UserRepresentation {
     public static UserRepresentation  fromUserVsMe( User user, User myUser){
         UserRepresentation userRepresentaion = new UserRepresentation();
         BeanUtils.copyProperties(user, userRepresentaion);
-        userRepresentaion.followedByMe= user.getFollowers().contains(myUser.getId());
-        userRepresentaion.followingMe=  user.getFollowedUsers().contains(myUser.getId());
+        userRepresentaion.followedByMe= user.getFollowers().contains(myUser);
+        userRepresentaion.followingMe=  user.getFollowedUsers().contains(myUser);
         return userRepresentaion;
     }
     public Long getId() {

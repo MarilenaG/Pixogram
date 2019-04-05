@@ -61,10 +61,23 @@ public class Image implements Serializable {
 
     }
 
+    public Image(Long id) {
+        this.id = id;
+    }
+
     public Image(@NotNull @Size(max = 100) String title, @NotNull String description, @NotNull String imageStoragePath) {
         this.title = title;
         this.description = description;
         this.imageStoragePath = imageStoragePath;
+        this.noOfDislikes=0;
+        this.noOfLikes=0;
+        this.defaultImage= false;
+    }
+    public Image( String title, String description,  String imageStoragePath, User usr) {
+        this.title = title;
+        this.description = description;
+        this.imageStoragePath = imageStoragePath;
+        this.user = usr;
         this.noOfDislikes=0;
         this.noOfLikes=0;
         this.defaultImage= false;

@@ -1,13 +1,15 @@
+
+
 <div class="container ">
     <div class="row">
       <div class="col-md-3" *ngFor="let f of usersFollowedByMe">
         <br/>
-          <p-card header="{{f.userName}}" [style]="{width: '250px'}" styleClass="ui-card-shadow">
+          <p-card header="{{f.userName}}" [style]="{width: '250px'}" styleClass="ui-card-shadow" (click)="showThisUsersGallery(f.id)" >
           <p-header>
-              <img src="Card" src="{{f.imageLocation}}" (click)="displayDetail(m)">
+              <img src="Card" src="{{f.imageLocation}}" >
           </p-header>
           <div>
-             <i class="fa fa-thumbs-up" style="width:50px"> {{f.noOfImages}} </i> 
+             <i class="fa fa-file-image-o" style="width:50px"> {{f.noOfImages}} </i> 
              <i class="fa fa-thumbs-up" style="width:50px"> {{f.noOfLikes}} </i> 
              <i class="fa fa-thumbs-down" style="width:50px"> {{f.noOfDislikes}} </i> 
              <i class="fa fa-comments" style="width:50px"> {{f.noOfComments}} </i>
@@ -17,3 +19,58 @@
       </div>
     </div>
   </div>
+  <p-dialog [(visible)]="showImageGallery" [style]="{width: '800px', minWidth: '800px'}" [contentStyle]="{'min-height':'100px', 'max-height':'400px;'}">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let m of imagesBySelectedUser">
+        <br/>
+          <p-card header="{{m.title}}" subheader="{{m.description}}" [style]="{width: '250px'}"  styleClass="ui-card-shadow">
+          <p-header>
+              <img src="Card" src="{{m.imageDownloadPath}}"  >
+          </p-header>
+          <div></div>
+          <div>
+             <i class="fa fa-thumbs-up" style="width:50px" (click)="likeImage(m.id)"> {{m.noOfLikes}} </i> 
+             <i class="fa fa-thumbs-down" style="width:50px" (click)="dislikeImage(m.id)" > {{m.noOfDislikes}} </i> 
+             <i class="fa fa-comments" style="width:50px" (click)="showComments(m.id)">  {{m.noOfComments}} </i> </div>
+           
+        </p-card>
+      </div>
+    </div>
+    <p-footer>
+        <button type="button" pButton  (click)="showImageGallery=false" label="Back"></button>
+    </p-footer>
+  </p-dialog>
+
+
+  <p-dialog [(visible)]="showCommentsDialog" [style]="{width: '800px', minWidth: '800px'}" [contentStyle]="{'min-height':'100px', 'max-height':'400px;'}">
+      <div class="container">
+          <div class="row" *ngFor="let c of selectedImageComments">
+              <div class="col-md-3 ">
+                  <label style="font-size:15px">Comments </label>
+              </div>
+               
+          </div>
+        <div class="row" *ngFor="let c of selectedImageComments">
+            <div class="col-md-3 ">
+                <label>From   {{c.userName}} : </label>
+            </div>
+            <div class="col-md-6">
+                <textarea style="width:100%;" type="text" formControlName="description"></textarea> 
+            </div> 
+        </div>
+        <form   [formGroup]="addCommentGroup">
+          <div class="row">
+                <div class="col-md-3 ">
+                    <label>Content   : </label>
+                </div>   
+                <div class="col-md-6">
+                    <textarea style="width:100%;" type="text" formControlName="content"></textarea> 
+                </div>       
+          </div>
+        </form>
+      </div>
+      <p-footer>
+          <button type="button" pButton  (click)="showCommentsDialog=false" label="Back"></button>
+          <button type="button" pButton  (click)="addComent()" label="OK"></button>
+      </p-footer>
+    </p-dialog> 

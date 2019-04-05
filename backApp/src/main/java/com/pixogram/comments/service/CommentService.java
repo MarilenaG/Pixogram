@@ -32,6 +32,11 @@ public class CommentService {
         activityRepository.save( activity);
         return comment;
     }
+
+    public Comment getComment(Long commentId) {
+        return commentRepository.getOne(commentId);
+    }
+
     public Comment likeComment( Long commentId, Long userId){
         Comment comment = commentRepository.findById(commentId).orElseThrow(()-> new NoSuchElementException("No comment with id "+ commentId));
         comment.setNoOfLikes( comment.getNoOfLikes() + 1 );
