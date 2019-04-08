@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7cef57-c6c5-440a-a096-1166a59eedfd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/account/account.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/account/account.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/follower/follower.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/follower/follower.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/follower/follower.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/follower/follower.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/following/following.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/following/following.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/following/following.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/following/following.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/upload-media/upload-media.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/home/upload-media/upload-media.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-client/angular-client/src/app/services/image.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-client/angular-client/src/app/services/image.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/controller/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../backApp/target/" />
@@ -28,19 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/DataLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding>
                 <element signature="e#984#985#0" expanded="true" />
                 <element signature="e#1032#1033#0" expanded="true" />
@@ -53,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentRepresentation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="137">
-              <caret line="35" column="51" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="35" selection-end-column="51" />
+              <caret line="35" column="51" selection-start-line="32" selection-start-column="7" selection-end-line="35" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/model/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="189">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,28 +57,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/model/Image.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
+            <state relative-caret-position="969">
               <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1947#1948#0" expanded="true" />
                 <element signature="e#1972#1973#0" expanded="true" />
+                <element signature="e#2006#2007#0" expanded="true" />
                 <element signature="e#2034#2035#0" expanded="true" />
+                <element signature="e#2066#2067#0" expanded="true" />
                 <element signature="e#2094#2095#0" expanded="true" />
+                <element signature="e#2136#2137#0" expanded="true" />
                 <element signature="e#2170#2171#0" expanded="true" />
+                <element signature="e#2201#2202#0" expanded="true" />
                 <element signature="e#2228#2229#0" expanded="true" />
+                <element signature="e#2268#2269#0" expanded="true" />
                 <element signature="e#2300#2301#0" expanded="true" />
+                <element signature="e#2338#2339#0" expanded="true" />
                 <element signature="e#2372#2373#0" expanded="true" />
+                <element signature="e#2426#2427#0" expanded="true" />
                 <element signature="e#2472#2473#0" expanded="true" />
+                <element signature="e#2509#2510#0" expanded="true" />
                 <element signature="e#2541#2542#0" expanded="true" />
+                <element signature="e#2592#2593#0" expanded="true" />
                 <element signature="e#2634#2635#0" expanded="true" />
+                <element signature="e#2677#2678#0" expanded="true" />
                 <element signature="e#2716#2717#0" expanded="true" />
+                <element signature="e#2780#2781#0" expanded="true" />
                 <element signature="e#2836#2837#0" expanded="true" />
+                <element signature="e#2876#2877#0" expanded="true" />
                 <element signature="e#2911#2912#0" expanded="true" />
+                <element signature="e#2968#2969#0" expanded="true" />
                 <element signature="e#3016#3017#0" expanded="true" />
+                <element signature="e#3056#3057#0" expanded="true" />
                 <element signature="e#3091#3092#0" expanded="true" />
+                <element signature="e#3148#3149#0" expanded="true" />
                 <element signature="e#3196#3197#0" expanded="true" />
+                <element signature="e#3225#3226#0" expanded="true" />
                 <element signature="e#3252#3253#0" expanded="true" />
+                <element signature="e#3290#3291#0" expanded="true" />
                 <element signature="e#3322#3323#0" expanded="true" />
               </folding>
             </state>
@@ -107,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="1513">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
               <folding>
                 <element signature="e#1483#1484#0" expanded="true" />
                 <element signature="e#1511#1512#0" expanded="true" />
@@ -119,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+            <state relative-caret-position="86">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,15 +130,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="146" column="88" lean-forward="true" selection-start-line="146" selection-start-column="88" selection-end-line="146" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/service/ImageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
+            <state relative-caret-position="1224">
               <caret line="89" column="25" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4126#4127#0" expanded="true" />
-                <element signature="e#4173#4174#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
+            <state relative-caret-position="1513">
               <caret line="107" selection-start-line="107" selection-end-line="107" />
             </state>
           </provider>
@@ -157,12 +163,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="30" column="102" lean-forward="true" selection-start-line="30" selection-start-column="102" selection-end-line="30" selection-end-column="102" />
+            <state relative-caret-position="74">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1367#1368#0" expanded="true" />
-                <element signature="e#1425#1426#0" expanded="true" />
+                <element signature="e#1426#1427#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,8 +236,8 @@
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/DataLoader.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/model/Image.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentRepresentation.java" />
-        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/service/ImageService.java" />
+        <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java" />
         <option value="$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentController.java" />
       </list>
     </option>
@@ -250,12 +255,67 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pixogram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pixogram" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pixogram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pixogram" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554506357496" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554506429777" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../backApp" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -411,7 +471,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17732793" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17732793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,7 +480,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5133215" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5133215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44760212" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,6 +541,12 @@
           <line>32</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -796,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="114" column="76" selection-start-line="114" selection-start-column="76" selection-end-line="114" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserRepresentation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -846,15 +905,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/config/DataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="697">
           <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/model/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2006#2007#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="e#2170#2171#0" expanded="true" />
+            <element signature="e#2201#2202#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2338#2339#0" expanded="true" />
+            <element signature="e#2372#2373#0" expanded="true" />
+            <element signature="e#2426#2427#0" expanded="true" />
+            <element signature="e#2472#2473#0" expanded="true" />
+            <element signature="e#2509#2510#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2592#2593#0" expanded="true" />
+            <element signature="e#2634#2635#0" expanded="true" />
+            <element signature="e#2677#2678#0" expanded="true" />
+            <element signature="e#2716#2717#0" expanded="true" />
+            <element signature="e#2780#2781#0" expanded="true" />
+            <element signature="e#2836#2837#0" expanded="true" />
+            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#2911#2912#0" expanded="true" />
+            <element signature="e#2968#2969#0" expanded="true" />
+            <element signature="e#3016#3017#0" expanded="true" />
+            <element signature="e#3056#3057#0" expanded="true" />
+            <element signature="e#3091#3092#0" expanded="true" />
+            <element signature="e#3148#3149#0" expanded="true" />
+            <element signature="e#3196#3197#0" expanded="true" />
+            <element signature="e#3225#3226#0" expanded="true" />
+            <element signature="e#3252#3253#0" expanded="true" />
+            <element signature="e#3290#3291#0" expanded="true" />
+            <element signature="e#3322#3323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="1513">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="e#1483#1484#0" expanded="true" />
             <element signature="e#1511#1512#0" expanded="true" />
@@ -864,67 +981,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/model/Image.java">
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/service/ImageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        <state relative-caret-position="1224">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2094#2095#0" expanded="true" />
-            <element signature="e#2170#2171#0" expanded="true" />
-            <element signature="e#2228#2229#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
-            <element signature="e#2372#2373#0" expanded="true" />
-            <element signature="e#2472#2473#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2634#2635#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-            <element signature="e#2836#2837#0" expanded="true" />
-            <element signature="e#2911#2912#0" expanded="true" />
-            <element signature="e#3016#3017#0" expanded="true" />
-            <element signature="e#3091#3092#0" expanded="true" />
-            <element signature="e#3196#3197#0" expanded="true" />
-            <element signature="e#3252#3253#0" expanded="true" />
-            <element signature="e#3322#3323#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
+        <state relative-caret-position="1513">
           <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/model/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentRepresentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="35" column="51" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="35" selection-end-column="51" />
+        <state relative-caret-position="189">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -933,35 +1010,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/service/CommentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="30" column="102" lean-forward="true" selection-start-line="30" selection-start-column="102" selection-end-line="30" selection-end-column="102" />
+        <state relative-caret-position="74">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/images/service/ImageService.java">
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentRepresentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="89" column="25" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="25" />
+        <state relative-caret-position="137">
+          <caret line="35" column="51" selection-start-line="32" selection-start-column="7" selection-end-line="35" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4126#4127#0" expanded="true" />
-            <element signature="e#4173#4174#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/comments/controller/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        <state relative-caret-position="86">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backApp/src/main/java/com/pixogram/users/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="146" column="88" lean-forward="true" selection-start-line="146" selection-start-column="88" selection-end-line="146" selection-end-column="88" />
         </state>
       </provider>
     </entry>

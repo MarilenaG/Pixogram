@@ -41,14 +41,9 @@ public class CommentController {
     }
     @PostMapping("/addComment")
     public ResponseEntity<CommentRepresentation> addComment(@RequestBody CommentRepresentation commentRepresentation) {
-        Comment comment = new Comment(  );
-        comment.setContent(commentRepresentation.content);
-        comment.setUser( userService.get(commentRepresentation.userId));
-        comment.setImage(imageService.getImage(commentRepresentation.imageId)) ;
-        comment.setNoOfLikes(0);
-        comment.setNoOfDislikes(0);
-        commentService.addComment(comment);
-        comment= commentService.getComment(commentRepresentation.id);
+
+        Comment comment=commentService.addComment(commentRepresentation.content, commentRepresentation.userId, commentRepresentation.imageId);
+
         commentRepresentation= CommentRepresentation.fromComment(comment);
         commentRepresentation =fillUserName(commentRepresentation);
         return new ResponseEntity(commentRepresentation, HttpStatus.OK);

@@ -16,7 +16,7 @@ import { FormGroup, FormBuilder, FormControl, Validators } from '@angular/forms'
 export class FollowingComponent implements OnInit {
   usersFollowedByMe: Follower[];
   imagesBySelectedUser :Image[];
-  commentsForSelectedImage :Comment[];
+  selectedImageComments :Comment[];
   selectedUserId : String;
   showImageGallery : boolean;
   showCommentsDialog : boolean;
@@ -35,6 +35,7 @@ export class FollowingComponent implements OnInit {
     this.addCommentGroup = this.formBuilder.group({
       content:  new FormControl('', [Validators.required])
     });
+    this.selectedImageComments=<Comment[]>[];
   }
 
   displayList() {
@@ -64,6 +65,7 @@ export class FollowingComponent implements OnInit {
     this.showImageGallery = true;
     this.showCommentsDialog = false;
     this.listImagesBySelectedUser(this.selectedUserId);
+    this.selectedImageComments=<Comment[]>[];
   }
 
   likeImage(imageId:number){
@@ -87,7 +89,7 @@ export class FollowingComponent implements OnInit {
     this.selectedImageId = imageId;
     this.imageService.listCommentsByImage(imageId )
     .subscribe(res => {
-      this.commentsForSelectedImage = res;
+      this.selectedImageComments = res;
     }, err => {
       console.log(err);
     });

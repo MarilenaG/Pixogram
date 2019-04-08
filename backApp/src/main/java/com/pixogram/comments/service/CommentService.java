@@ -5,6 +5,7 @@ import com.pixogram.activities.model.Activity;
 import com.pixogram.activities.model.ActivityType;
 import com.pixogram.comments.infrastructure.CommentRepository;
 import com.pixogram.comments.model.Comment;
+import com.pixogram.images.model.Image;
 import com.pixogram.users.infrastructure.UserRepository;
 import com.pixogram.users.model.User;
 import org.springframework.stereotype.Component;
@@ -26,7 +27,13 @@ public class CommentService {
         this.userRepository = userRepository;
     }
 
-    public Comment addComment(Comment comment) {
+    public Comment addComment(String content, Long userId , Long imageId) {
+        Comment comment = new Comment(  );
+        comment.setContent(content);
+        comment.setUser( new User(userId));
+        comment.setImage(new Image(imageId)) ;
+        comment.setNoOfLikes(0);
+        comment.setNoOfDislikes(0);
         commentRepository.save(comment);
         Activity activity = new Activity(comment.getUser(), ActivityType.COMMENT, comment.getImage());
         activityRepository.save( activity);

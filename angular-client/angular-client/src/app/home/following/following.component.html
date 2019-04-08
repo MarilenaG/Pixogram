@@ -44,7 +44,7 @@
 
   <p-dialog [(visible)]="showCommentsDialog" [style]="{width: '800px', minWidth: '800px'}" [contentStyle]="{'min-height':'100px', 'max-height':'400px;'}">
       <div class="container">
-          <div class="row" *ngFor="let c of selectedImageComments">
+          <div class="row" >
               <div class="col-md-3 ">
                   <label style="font-size:15px">Comments </label>
               </div>
@@ -55,7 +55,7 @@
                 <label>From   {{c.userName}} : </label>
             </div>
             <div class="col-md-6">
-                <textarea style="width:100%;" type="text" formControlName="description"></textarea> 
+                <label>{{c.content}}</label>
             </div> 
         </div>
         <form   [formGroup]="addCommentGroup">
